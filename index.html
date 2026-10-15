@@ -1,0 +1,288 @@
+<!-- ============================================ -->
+<!-- 📄 ARCHIVO 1: index.html                     -->
+<!-- ============================================ -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muy Bueni 🚀 | Emprendimiento del Futuro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="particles"></canvas>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">Muy<span class="gradient-text">Bueni</span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="badge">🔥 Emprendimiento #1 del 2026</div>
+            <h1 class="hero-title">
+                Bienvenido a<br>
+                <span class="gradient-text glitch" data-text="Muy Bueni">Muy Bueni</span>
+            </h1>
+            <p class="hero-subtitle">Transformamos tus ideas más locas en realidad. Innovación, calidad y resultados que te van a volar la cabeza.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">
+                    <span>Empezar Ahora</span>
+                    <span class="btn-arrow">→</span>
+                </button>
+                <button class="btn btn-secondary">Ver Demo 🎬</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">10K+</div>
+                    <div class="stat-label">Clientes Felices</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Proyectos</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <div class="stat-number">99%</div>
+                    <div class="stat-label">Satisfacción</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nuestros Servicios</span>
+                <h2 class="section-title">Lo que <span class="gradient-text">ofrecemos</span></h2>
+                <p class="section-desc">Soluciones de otro nivel para tu negocio</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-tilt>
+                    <div class="card-glow"></div>
+                    <div class="service-icon">🚀</div>
+                    <h3>Despegue Digital</h3>
+                    <p>Llevamos tu negocio al siguiente nivel con estrategias innovadoras.</p>
+                    <a href="#" class="card-link">Saber más →</a>
+                </div>
+                <div class="service-card featured" data-tilt>
+                    <div class="card-glow"></div>
+                    <div class="featured-badge">⭐ Popular</div>
+                    <div class="service-icon">💎</div>
+                    <h3>Diseño Premium</h3>
+                    <p>Interfaces que enamoran. Diseño único y memorable para tu marca.</p>
+                    <a href="#" class="card-link">Saber más →</a>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="card-glow"></div>
+                    <div class="service-icon">⚡</div>
+                    <h3>Velocidad Extrema</h3>
+                    <p>Rendimiento optimizado. Tu sitio cargará más rápido que un rayo.</p>
+                    <a href="#" class="card-link">Saber más →</a>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="card-glow"></div>
+                    <div class="service-icon">🎯</div>
+                    <h3>Marketing Inteligente</h3>
+                    <p>Estrategias basadas en datos para maximizar tus resultados.</p>
+                    <a href="#" class="card-link">Saber más →</a>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="card-glow"></div>
+                    <div class="service-icon">🛡️</div>
+                    <h3>Seguridad Total</h3>
+                    <p>Protección de nivel bancario para tu información y la de tus clientes.</p>
+                    <a href="#" class="card-link">Saber más →</a>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="card-glow"></div>
+                    <div class="service-icon">🌐</div>
+                    <h3>Soporte 24/7</h3>
+                    <p>Estamos contigo en todo momento. Resolvemos tus dudas al instante.</p>
+                    <a href="#" class="card-link">Saber más →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-visual">
+                    <div class="floating-card card-1">💡 Innovación</div>
+                    <div class="floating-card card-2">🎨 Creatividad</div>
+                    <div class="floating-card card-3">⚡ Velocidad</div>
+                    <div class="main-circle">
+                        <div class="circle-text">MUY<br>BUENI</div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">Sobre Nosotros</span>
+                    <h2 class="section-title">Somos los <span class="gradient-text">mejores</span></h2>
+                    <p class="about-text">
+                        En <strong>Muy Bueni</strong> no somos una empresa más. Somos un equipo apasionado que vive y respira innovación. Cada proyecto que tomamos lo hacemos con el corazón, porque creemos que lo bueno siempre puede ser MUY BUENI.
+                    </p>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <span class="feature-check">✓</span>
+                            <span>Equipo experto y comprometido</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-check">✓</span>
+                            <span>Tecnología de última generación</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-check">✓</span>
+                            <span>Resultados garantizados</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-check">✓</span>
+                            <span>Precios accesibles</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonios</span>
+                <h2 class="section-title">Lo que dicen <span class="gradient-text">nuestros clientes</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Increíble trabajo. Superaron todas mis expectativas. ¡Muy Bueni de verdad!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MG</div>
+                        <div>
+                            <div class="author-name">María González</div>
+                            <div class="author-role">CEO, TechStart</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"El mejor equipo con el que he trabajado. Profesionales de primer nivel."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">CR</div>
+                        <div>
+                            <div class="author-name">Carlos Ramírez</div>
+                            <div class="author-role">Fundador, InnovaLab</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Resultados increíbles en tiempo récord. 100% recomendados."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">LF</div>
+                        <div>
+                            <div class="author-name">Laura Fernández</div>
+                            <div class="author-role">Directora, CreativeCo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-tag">Contacto</span>
+                    <h2 class="section-title">Hablemos <span class="gradient-text">hoy</span></h2>
+                    <p>¿Listo para hacer realidad tu proyecto? Escríbenos y te respondemos en menos de 24 horas.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>hola@muybueni.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+52 555 123 4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Ciudad de México, MX</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Tu email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Cuéntanos tu proyecto..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Enviar Mensaje</span>
+                        <span class="btn-arrow">→</span>
+                    </button>
+                    <div id="formMessage" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">Muy<span class="gradient-text">Bueni</span></span>
+                    </div>
+                    <p>Transformando ideas en realidad desde 2026.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces</h4>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">💼</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Muy Bueni. Hecho con 💜 y mucho café ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
